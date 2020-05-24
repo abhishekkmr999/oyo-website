@@ -1,0 +1,458 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:#fff;
+}
+#LogoAndMenuBlock{
+    background-color: #fff;
+    height: 70px;
+    box-shadow: 1px 1px 4px 1px #eee;
+   display: flex;
+    align-items: center;
+
+
+}
+#LogoAndMenuBlock article{
+    margin: 0 auto;
+    width: 90%
+}
+
+#logo{
+    width: 81px;
+    height: 29px;
+    fill:#ee2e24
+}
+/*--menublock right*/
+#wizard-logo{
+    width: 25px;
+    height: 18px;
+    background-color: #111;
+    border-radius: 3px;
+    padding: 10px;
+    color: goldenrod;
+}
+.LogoBlock{
+    width: 60%;
+    float: left;
+}
+.LogoBlock svg{
+    margin: 5px auto;
+}
+.MenuBlock{
+    width: 40%;
+    float: left;
+}
+
+.menuLeft{
+    width: 50%;
+    float: left;
+}
+.menuRight{
+    width: 50%;
+    float: left;
+}
+.menuLeft>div:nth-child(1){
+    width: 20%;
+    float: left;
+
+}
+.menuLeft>div:nth-child(2){
+    width: 73%;
+    float: left;
+    margin: 0 6px;
+
+}
+.menuLeft>div>p{
+    margin: 0;
+    
+}
+.menuLeft>div>p:nth-child(1){
+    font-size: 14px;
+}
+.menuLeft>div>p:nth-child(2){
+    font-size: 11px;
+}
+.menuRight ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+}
+.menuRight ul li {
+    float: left;
+}
+.menuRight ul li a{
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+#city{
+    background-color: #f3f5f7;
+    height: 40px;
+}
+#city article{
+    width: 90%;
+    margin: 0 auto;
+}
+#city ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+#city ul li{
+    float: left;
+    margin: 0px 0px;
+}
+#city ul li a{
+    padding: 10px 17px;
+    display: inline-block;
+    color: #666;
+    text-decoration: none;
+
+}
+#city ul li a:hover{
+    background-color: #eee;
+    transition: ease-in-out all 0.7s;
+    border-bottom: 1px solid #999;
+}
+#city ul li a::after{
+    content: '^';
+    margin:0px 3px;
+    line-height: 10px;
+}
+
+/* slider block css start here */
+#sliderBlock{
+    background:linear-gradient(135.46deg,#d11450,#df293a);
+    width: 100%;
+    height: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#sliderBlock h1{
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin: 10px 0px 20px;
+    color: #fff;
+
+}
+#sliderBlock article{
+    width: 90%;
+    margin: 0 auto;
+}
+  
+#sliderBlock>article>main>form>span>input:nth-child(1){
+    width: 100%;
+    border-radius: 5px 0px 0px 5px;
+    padding: 21px;
+    top: 14px;
+   
+    
+}
+ #sliderBlock>article>main>form>span{
+    
+    width: 30%;
+    position: relative;
+  
+}
+.nearme{
+   position: absolute;
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 20px;
+    right: 8px;
+    top: 17px;
+    font-size: 13px;
+    color: #111;
+    font-weight: 800;
+    
+    
+
+
+}
+#sliderBlock >article> main >form> input:nth-child(2){
+    width: 20%;
+    border-left: 1px solid#999;
+    border-right: 1px solid#999;
+    
+}
+#sliderBlock >article> main >form> input:nth-child(3){
+
+    width: 20%;
+    
+    
+    
+}
+#sliderBlock >article> main >form> input:nth-child(3)::placeholder{
+    color:#111;
+}
+#sliderBlock >article> main >form> input,#sliderBlock >article> main >form> input>span {
+    padding: 18px;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-size: 18px;
+}
+
+#sliderBlock >article> main >form{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+#sliderBlock >article> main >form> input:nth-child(1){
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+#sliderBlock>article>main>form>button{
+    background-color: #1ab64f;
+    color: white;
+    padding: 20px 60px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+/* addBlock css start here */
+ #addBlock article{
+     width: 90%;
+     margin: 0 auto;
+ }
+ #addBlock article img{
+     width: 100%;
+     height: 130px;
+ }
+ #addBlock article figure{
+     margin: 40px 0px;
+ }
+ #saveBlock article{
+     width: 90%;
+     margin: 0 auto;
+
+ }
+ #saveBlock article h1 ,#HotelsAndHome article h1{
+     font-weight: bold;
+     font-size: 26px;
+     color: #000;
+
+ }
+ #saveBlock article main div{
+     width: 33%;
+     height: 150px;
+     overflow: hidden;
+ }
+ #saveBlock article main div img{
+     width: 100%;
+     height: 200px;
+     border-radius: 6px;
+
+ }
+ #saveBlock article main{
+     display: flex;
+     justify-content: space-between;
+ }
+ #saveBlock article main div img:hover{
+     transform: scale(1.1);
+     transition: ease all 0.7s;
+ }
+
+/* oyo hotels and romm start */
+ #HotelsAndHome article{
+     width: 90%;
+     margin: 0 auto;
+ }
+ #HotelsAndHome article main{
+     display: flex;
+ }
+ #HotelsAndHome article main .leftMain{
+     width: 40%;
+     background-color: #1ab65f;
+ }
+ #HotelsAndHome article main .rightMain{
+     width: 60%;
+     background-color: #999;
+ }
+.leftMain section{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 30px 20px;
+    background-color:#ededed;
+    box-shadow:0 8px 22px 0 hsla(0, 0%, 58%, 0.18);
+    border-bottom: 1px solid #d4d4d4;
+
+
+
+    
+}
+.leftMain figure{
+    margin: 0;
+    padding: 0;
+}
+.leftMain img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.innerBlockLeft{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.innerBlockRight{
+    width: 75%;
+}
+
+.leftMain section:hover{
+    border-left: 3px solid #ee2e24;
+    background-color: #ffff;
+    transition: ease all 0.4s;
+    cursor: pointer;
+}
+.leftMain section .innerBlockLeft figcaption{
+    background: #fff;
+    padding: 3px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 2px 1px #ccc;
+    font-size: 13px;
+    margin: -19px 0 14px;
+
+}
+.redCaption {
+    background: #ee2e24 !important;
+    color: white;
+
+}
+.blackCaption {
+    background: black !important;
+    color: white;
+}
+.blueCaption{
+    background: rgb(13, 20, 28) !important;
+    color: white;
+}
+.yellowcaption{
+    background: linear-gradient(110deg, rgb(186, 133, 57), rgb(248, 241, 157));
+    
+    color: white;
+    
+}
+.rightMain figure{
+    margin: 0;
+    padding: 0;
+}
+.rightMain img{
+    width: 100%;
+}
+/* hotel chain css bloack start here */
+#HotelChain{
+    background-color: #f3f5f7;
+    height: 500px;
+    margin-top: 40px;
+    
+}
+#HotelChain article{
+    display: flex;
+}
+.leftHotelChain{
+    width: 50%;
+    background: url(../images/432737_widgetImage.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.leftHotelChain figure{
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.leftHotelChain img{
+    width: 115px;
+    height: 115px;
+}
+
+.rightHotelChain{
+    width: 50%;
+    padding: 50px 0px;
+}
+.hotelchainImg1{
+    position: relative;
+
+
+
+}
+.hotelchainImg2{
+    position: absolute;
+    
+}
+.rightHotelChain h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.rightHotelChain main{
+    display: flex;
+    margin: 40px 0px;
+   
+}
+.rightHotelChain main div{
+    width: 20%;
+    transform: skewX(-30deg);
+    width: auto;
+    padding: 0 17px;
+}
+.inside{
+    transform: skewX(30deg) !important;
+}
+.middleOne{
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+}
+.rightHotelChain main div h4{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+
+}
+.rightHotelChain main div p{
+    margin: 0;
+    color: #666;
+}
+.rightHotelChain ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+ .rightHotelChain ul li {
+    width: 30%;
+    padding: 20px 0px;
+    text-transform: capitalize;
+    display: block;
+    position: relative;
+
+}
+.rightHotelChain ul li span{
+    height: 8px;
+    width: 8px;
+    background-color: #111;
+     display: block;       /* for changing the size of span element  */
+    text-indent: -9999px;
+    border-radius: 100%;
+    position: absolute;
+    top: 27px;
+    left: -20px;
+
+} 
+
+
+
+ 
